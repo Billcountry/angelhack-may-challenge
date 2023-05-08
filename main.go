@@ -43,6 +43,7 @@ func main() {
 	fmt.Println("## May 2023 Challenge Statement")
 	fmt.Println("### 🎨Theme: “Algorithms: Coding Puzzles”")
 	fmt.Println("\n### Results")
+	fmt.Println("`$ go run main.go`")
 	run_question1()
 	run_question2()
 	run_question3()
