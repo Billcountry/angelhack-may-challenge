@@ -8,6 +8,7 @@ import (
 	"github.com/billcountry/angelhack-may-challenge/question3"
 	"github.com/billcountry/angelhack-may-challenge/question4"
 	"github.com/billcountry/angelhack-may-challenge/question5"
+	"github.com/billcountry/angelhack-may-challenge/question6"
 )
 
 func run_question1() {
@@ -50,6 +51,10 @@ func run_question5() {
 	fmt.Printf("- **Question 5:** `%s`\n", question5.Decode(encoded))
 }
 
+func run_question6() {
+	fmt.Printf("- **Question 6:** `%d`\n", question6.DisconnectNodes("kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjkkkknbmssdsdsfdvneurghiueor"))
+}
+
 func main() {
 	fmt.Println("# AngelHack Monthly Code Challenge")
 	fmt.Println("## May 2023 Challenge Statement")
@@ -61,4 +66,5 @@ func main() {
 	run_question3()
 	run_question4()
 	run_question5()
+	run_question6()
 }
